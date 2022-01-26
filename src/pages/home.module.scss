@@ -1,1 +1,23 @@
-// TODO
+.homeContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100vh;
+
+  header {
+    margin: 25px 0 10px 0;
+  }
+
+  main {
+    div + div {
+      margin-top: 48px;
+    }
+
+    button {
+      border: 0;
+      margin: 42px 0 80px 210px;
+      color: var(--pink-900);
+      background: none;
+      font-weight: 600;
+    }
+  }
+}
